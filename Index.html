@@ -1,79 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Facebook - Log In</title>
+  <meta charset="UTF-8">
+  <title>Facebook Login Prank</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: url('muzamil.jpg') no-repeat center center fixed;
-      background-size: cover;
-    }
-
-    .container {
+      background: #f0f2f5;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
     }
-
     .login-box {
       background-color: white;
       padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
       text-align: center;
     }
-
-    .login-box h2 {
-      color: #1877f2;
-      font-size: 22px;
-      margin-bottom: 20px;
-    }
-
-    .login-box input {
-      width: 100%;
-      padding: 12px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
+    input, button {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
       font-size: 16px;
     }
-
-    .login-box button {
-      width: 100%;
-      padding: 12px;
-      background: #1877f2;
+    button {
+      background-color: #1877f2;
       color: white;
-      font-size: 16px;
       border: none;
-      border-radius: 6px;
       cursor: pointer;
+    }
+    #marquee {
+      display: none;
+      margin-top: 20px;
+      font-size: 24px;
+      color: red;
+      font-weight: bold;
+    }
+    #image {
+      display: none;
+      margin-top: 20px;
+    }
+    #image img {
+      width: 200px;
+      border-radius: 20px;
     }
   </style>
 </head>
-<body onload="prank()">
+<body>
 
-  <!-- Audio -->
-  <audio autoplay loop>
-    <source src="prank.mp3" type="audio/mpeg" />
-    Your browser does not support the audio element.
-  </audio>
-
-  <div class="container">
-    <div class="login-box">
-      <h2>Facebook</h2>
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
-      <button onclick="alert('Haha! You\'ve been pranked by Muzamil!!')">Log In</button>
-    </div>
+  <div class="login-box">
+    <h2>Facebook</h2>
+    <input type="text" placeholder="Email or Phone">
+    <input type="password" placeholder="Password">
+    <button onclick="showPrank()">Log In</button>
   </div>
 
+  <marquee id="marquee">Muzamil is watching you!</marquee>
+  <div id="image">
+    <img src="muzamil.jpg" alt="Muzamil Image">
+  </div>
+  <audio id="prank-audio" src="prank.mp3" loop></audio>
+
   <script>
-    function prank() {
-      alert("Haha! You've been pranked by Muzamil!!");
+    function showPrank() {
+      document.getElementById('marquee').style.display = 'block';
+      document.getElementById('image').style.display = 'block';
+      document.getElementById('prank-audio').play();
     }
   </script>
+
 </body>
 </html>
