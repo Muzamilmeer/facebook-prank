@@ -92,6 +92,7 @@ For any questions or support, contact via WhatsApp: **+919103594759**
 ## 👥 Follow Us
 
 - **Facebook:** [https://www.facebook.com/share/1AvqHqYWEt/](https://www.facebook.com/share/1AvqHqYWEt/)
+- **Instagram:** [@root.access.granted](https://www.instagram.com/root.access.granted?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
 - **WhatsApp:** [+919103594759](https://wa.me/919103594759)
 
 ---
