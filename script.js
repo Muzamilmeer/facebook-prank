@@ -149,7 +149,7 @@ class ShoppingApp {
             }
         ];
         
-        this.whatsappNumber = "9103594759"; // Your specified WhatsApp number
+        this.whatsappNumber = "919103594759"; // Your specified WhatsApp number
         this.init();
     }
 

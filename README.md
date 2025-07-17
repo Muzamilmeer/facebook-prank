@@ -37,7 +37,7 @@ When you place an order:
 - Opens WhatsApp automatically
 - Pre-fills a professional order message
 - Includes all product details, quantities, and total price
-- Sends to: `9103594759`
+- Sends to: `+919103594759`
 
 ## 💻 Technical Details
 
@@ -87,7 +87,7 @@ Built with:
 
 ## 📞 Contact
 
-For any questions or support, contact via WhatsApp: **9103594759**
+For any questions or support, contact via WhatsApp: **+919103594759**
 
 ---
 
