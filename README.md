@@ -89,6 +89,11 @@ Built with:
 
 For any questions or support, contact via WhatsApp: **+919103594759**
 
+## 👥 Follow Us
+
+- **Facebook:** [https://www.facebook.com/share/1AvqHqYWEt/](https://www.facebook.com/share/1AvqHqYWEt/)
+- **WhatsApp:** [+919103594759](https://wa.me/919103594759)
+
 ---
 
 ⭐ **Star this repository if you found it helpful!**
